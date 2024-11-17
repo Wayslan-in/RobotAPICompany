@@ -12,7 +12,7 @@ Este projeto automatiza as funcionalidades de **login**, **users** e **company**
 - **Ferramenta utilizada**: **Robot Framework** com a biblioteca **SeleniumLibrary**.
 - **Linguagem de teste**: Os testes são criados em **Robot Framework Syntax** e **Python**.
 - **Integração contínua (CI/CD)**: Os testes são executados em uma pipeline CI/CD utilizando **GitHub Actions**.
-- **Relatórios**: Os resultados dos testes são publicados no **GitHub Pages** através do link: ------------- 📊
+- **Relatórios**: Os resultados dos testes são publicados no **GitHub Pages** através do link:(https://wayslan-in.github.io/RobotAPICompany/report.html) 📊
 
 
 ## 🔧 Pré-requisitos.
@@ -24,18 +24,19 @@ Antes de executar os testes, certifique-se de que você possui as seguintes depe
 
 Dependências do projeto:
 
-- robotframework
-- robotframework-seleniumlibrary
+- robotframework <BR>
+- robotframework-seleniumlibrary <BR>
 
 ## 📝 Como Executar os Testes
 
 1. **Clone o repositório abaixo** para o seu ambiente local:
 
-   https://github.com/jvluzc/ronbugado-academy12.2-front-robot.git
+- **HTTPS** - https://github.com/Wayslan-in/RobotAPICompany.git <BR>
+- **SSH** - git@github.com:Wayslan-in/RobotAPICompany.git <BR>
 
-2. Instale as dependências do projeto (como mencionado acima).
-3. Execute os testes de frontend com o seguinte comando:
-* robot -d ./results .\tests
+3. Instale as dependências do projeto (como mencionado acima).
+4. Execute os testes de frontend com o seguinte comando:
+- robot -d ./results .\tests
 4. Visualize os resultados dos testes no relatório gerado na pasta results/.
 
 ## 👥 Squad
@@ -46,8 +47,8 @@ Dependências do projeto:
 
 ## 👨‍💻 Equipe
 - Raphaela Teada
-- Wayslan
+- Wayslan Miranda
 - Sonia Izabel
-- Loisy
+- Loisy Dias
 - João Vitor
 - Vanderson Oliveira
